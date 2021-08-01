@@ -20,9 +20,9 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
 param_dic = {
-    "host"      : "localhost",
-    "database"  : "Group13 Project",
-    "user"      : "postgres",
+    "host"      : "ec2-3-214-136-47.compute-1.amazonaws.com",
+    "database"  : "d84ll7nkuqq49s",
+    "user"      : "orjdfrtmahxzyf",
     "password"  : db_pass
 }
 
