@@ -8,7 +8,6 @@ from pandas.core.frame import DataFrame
 import streamlit as st
 import plotly.express as px
 import pandas as pd
-from dash.dependencies import Input, Output
 import plotly.graph_objects as go
 import mlinv
 
