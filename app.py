@@ -11,7 +11,12 @@ import pandas as pd
 import plotly.graph_objects as go
 import mlinv
 
-st.sidebar.title("Stock Predict")
+st.header("ML INVESTMENT")
+st.image("stocks.jpg")
+st.subheader("Using Linear Regression ML")
+st.write("You can also try [Classification ML](https://stock-analyse.herokuapp.com)")
+st.write("---")
+st.sidebar.title("Stock Symbols")
 # symbol = st.sidebar.text_input("Input Ticker Symbol")
 symbols = tuple(pd.read_csv('stocks.csv')["Symbol"].to_list())
 symbol = st.sidebar.selectbox(label="Select stock symbol", options=symbols)
